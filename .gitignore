@@ -1,0 +1,69 @@
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets / local env
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+dist/
+.next/
+out/
+.turbo/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# GIS data artifacts (keep small sample/reference GeoJSON)
+*.tif
+*.tiff
+*.tfw
+*.aux.xml
+*.ovr
+*.img
+*.hdr
+*.bil
+*.bip
+*.bsq
+data/raw/
+data/processed/
+
+# Shapefile companion / sidecar files (do not ignore .geojson)
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.shp.xml
+*.qix
+*.fix
+*.ain
+*.aih
+*.ixs
+*.mxs
+*.atx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
