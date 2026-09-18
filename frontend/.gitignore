@@ -1,1 +1,7 @@
-
+# Local PHPChess install artifacts (root .gitignore also covers these)
+bin/config.php
+bin/installed
+*.log
+*.LOG
+*.suo
+*.user
